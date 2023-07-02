@@ -1,0 +1,112 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width:100%;
+    background: linear-gradient(rgba(82, 69, 69, 0.4), rgba(82, 69, 69, 0.4)), url("/website/images/bg-3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    position:sticky;
+
+
+}
+.navbar{
+    width: 1200px;
+    height:75px;
+    margin-right:20px;
+    margin-left: 20px;
+    position: fixed; 
+    
+}
+.icon{
+    width: 200px;
+    height:70px;
+}
+.logo{
+    color:rgba(94, 29, 29, 0.888);
+    font-size:35px;
+    font-family:arial;
+    padding-left:10px;
+    float:left;
+    padding-top: 10px; 
+}
+
+ul{
+    float:right;
+    display:flex;
+   
+}
+ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right:10px;
+    margin-top:27px;
+    font-size:14px;
+}
+ul li a{
+    text-decoration: none;
+    color:red;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 25px;
+  /*  transition:0.4s ease-in-out;*/
+}
+ul li a:hover{
+    color:white;
+}
+footer{
+background-color:gray;
+color:black;
+font-size: 25px;
+font-weight: bold;
+padding:10%;   
+}
+.h1{
+font-family:Arial, Helvetica, sans-serif;
+padding-left: 10px;
+color:black
+}
+footer .fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 1.0;
+}
+
+.fa-facebook {
+background: #45bbff;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-linkedin {
+background: #0a5070;
+color: white;
+}
+.fa-instagram {
+background: #e30792e0;
+color: white;
+}
+/* LOGIN PAGE CSS*/
+.SocialBar-items {
+display: -ms-flexbox;
+display: flex;
+-ms-flex-pack: justify;
+justify-content: space-between;
+}
+
+.SocialBar-items {
+margin:0px;
+}
